@@ -1,0 +1,5 @@
+---
+- hosts: loadbalancer
+  gather_facts: no
+  roles:
+    - stop_lb
